@@ -27,7 +27,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10%;
+    margin: 3% 10%;
+    color: var(--branco-primario);
+}
+
+.lista__item__cabecalho a {
+    font-size: 17px;
+    color: var(--branco-primario);
+    text-decoration: none;
 }
 
 .container__botao {
@@ -55,7 +62,7 @@ body {
 
 .posicao__principal {
     position: relative;
-    top: 150px;
+    top: 23%;
 }
 
 .grafico {
@@ -103,7 +110,7 @@ body {
     color: var(--cinza-secundario);
 }
 
-.lista__item a {
+.lista__item__rodape a {
     font-size: 23px;
     color: var(--cinza-secundario);
     text-decoration: none;
@@ -111,18 +118,18 @@ body {
 
 .posicao__destaque__titulo {
     position: relative;
-    top: 150px;
+    top: 23%;
 }
 
 .posicao__destaque__descricao {
     position: relative;
-    top: 70px;
-    left: 610px;
+    top: 11%;
+    left: 100%;
 }
 
 .posicao__destaque {
     position: relative;
-    bottom: 200px;
+    bottom: 755%;
 }
 
 .destaque__titulo {
@@ -185,34 +192,34 @@ body {
 
 .posicao__games__titulo {
     position: relative;
-    top: 80px;
-    left: 210px;
+    top: 15%;
+    left: 35%;
     text-align: left;
 }
 
 .posicao__games__descricao {
     position: relative;
-    top: 250px;
-    right: 390px;
+    top: 90%;
+    right: 85%;
     text-align: left;
 }
 
 .gamep {
     position: relative;
-    top: 30px;
-    left: 10px;
+    top: 10%;
+    left: 3%;
 }
 
 .gamem {
     position: relative;
-    left: 1050px;
-    top: 28px;
+    left: 173%;
+    top: 6%;
 }
 
 .gameg {
     position: relative;
-    left: 190px;
-    bottom: 190px;
+    left: 42%;
+    bottom: 42%;
 }
 
 .control {
@@ -225,7 +232,7 @@ body {
     grid-template-columns: 25% 25% 25% 25%;
     text-align: left;
     position: relative;
-    left: 800px;
+    left: 55%;
     top: 50px;
 }
 
@@ -260,7 +267,7 @@ body {
     background-position: center;*/
     align-items: center;
     text-align: center;
-    margin-left: 150px;
+    margin-left: 10%;
     position: relative;
     top: 650px;
 }
@@ -308,7 +315,7 @@ body {
 
 .label {
     position: relative;
-    left: 430px;
+    left: 29%;
     bottom: 150px;
     /*bottom: 330px;
     right: 900px;*/
@@ -323,13 +330,13 @@ body {
     display: grid;
     grid-template-columns: 60% 40%;
     text-align: left;
-    margin-left: 150px;
+    margin-left: 10%;
 }
 
 .questions {
     font-family: var(--fonte-principal);
     margin-top: 2%;
-    margin-left: 150px;
+    margin-left: 10%;
     align-items: center;
     justify-content: space-between;
     direction: ltr;
@@ -338,7 +345,7 @@ body {
 .answer {
     font-family: var(--fonte-principal);
     margin-top: 2%;
-    margin-left: 150px;
+    margin-left: 10%;
     align-items: center;
     justify-content: space-between;
     direction: ltr;
